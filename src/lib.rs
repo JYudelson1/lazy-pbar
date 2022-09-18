@@ -3,6 +3,8 @@ use indicatif::{ProgressIterator, ProgressStyle, ProgressBarIter};
 const PBAR_TEMPLATE: &str = "{msg} |{wide_bar}| {pos}/{len} [{elapsed_precise}>{eta_precise}]";
 
 /// A very lazy wrapper for any ProgressIterator with know length
+/// Looks nice enough as a default
+/// Style heavily borrowing from [tqdm](https://github.com/tqdm/tqdm)
 /// Example:
 /// ''' 
 /// # let mut x = 0; 
