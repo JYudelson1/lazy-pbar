@@ -1,7 +1,7 @@
 # lazy-pbar
 
-A very lazy wrapper for any ProgressIterator with known length
-Looks nice enough as a default
+A very lazy wrapper for any ProgressIterator with known length.
+
 Style heavily borrowing from [tqdm](https://github.com/tqdm/tqdm).
 
 
