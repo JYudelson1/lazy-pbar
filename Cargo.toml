@@ -1,6 +1,6 @@
 [package]
 name = "lazy-pbar"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["Joseph Yudelson"]
 description = "An extremely lazy interface for indicatif, simplifying my one use case (Wrapping an iterator)"
