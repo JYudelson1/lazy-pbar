@@ -10,6 +10,8 @@ const PBAR_TEMPLATE: &str = "{msg} |{wide_bar}| {pos}/{len} [{elapsed_precise}>{
 /// 
 /// Example:
 /// ```
+/// use lazy_pbar::pbar;
+/// 
 /// for i in pbar(0..1_000_000, 1_000_000) {
 /// // Do whatever
 /// }
